@@ -24,7 +24,7 @@ class App extends Component{
         <Navbar/>
         <Routes>
           <Route exact path='/' Component={Andex}/>
-          <Route path='/contact' Component={Contact}/>
+          {/* <Route path='/contact' Component={Contact}/> */}
         </Routes>
     </BrowserRouter>
 
